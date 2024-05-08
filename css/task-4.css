@@ -1,0 +1,16 @@
+form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  background-color: #fff;
+}
+button {
+  width: 86px;
+  margin-top: 8px;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  margin: 8px 0;
+}

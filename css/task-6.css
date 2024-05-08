@@ -1,0 +1,44 @@
+#controls,
+#boxes {
+  display: flex;
+  border-radius: 8px;
+  padding: 32px;
+  min-width: 486px;
+  background-color: #f6f6fe;
+}
+#controls {
+  gap: 16px;
+  margin-bottom: 16px;
+}
+#boxes {
+  gap: 44px;
+  flex-wrap: wrap;
+}
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 150px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  background-color: transparent;
+}
+
+button {
+  min-width: 120px;
+}
+/* button:hover,
+button:focus {
+  background-color: #6c8cff;
+} */
+.destroy-btn {
+  background-color: #ff4e4e;
+}
+.destroy-btn:hover,
+.destroy-btn:focus {
+  background-color: #ff7070;
+}

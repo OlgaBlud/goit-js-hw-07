@@ -1,0 +1,9 @@
+.widget {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+}
+p {
+  font-size: 16px;
+}
