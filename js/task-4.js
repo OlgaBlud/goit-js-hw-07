@@ -10,6 +10,6 @@ function handleSubmit(event) {
     alert('All form fields must be filled in');
   } else {
     console.log({ email, password });
+    form.reset();
   }
-  form.reset();
 }
